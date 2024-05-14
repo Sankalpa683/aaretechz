@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaratech 3D - 3D Printing, Prototyping & Design Solutions </title>
+    <meta name="description" content="Welcome to Aaratech 3D, your premier destination for cutting-edge 3D printing, rapid prototyping, and innovative design solutions. Explore our comprehensive services tailored to meet your manufacturing and design needs.">
+    <meta name="keywords" content="3D Printing, Prototyping Services, Design Solutions, Rapid Prototyping, Additive Manufacturing, Custom 3D Design, Industrial 3D Printing, Product Prototyping, CAD Modeling, Creative Design Solutions">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="3D Printing, Prototyping &amp; Design Solutions | Aaratech 3D">
+    <meta property="og:description" content="Welcome to Aaratech 3D, your premier destination for cutting-edge 3D printing, rapid prototyping, and innovative design solutions. Explore our comprehensive services tailored to meet your manufacturing and design needs.">
+    <meta property="og:image" content="[Link to an engaging image representing Aaratech 3D's services]">
+    <!-- Google Index and Follow Tags -->
+    <meta name="robots" content="index, follow">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://techzaa.getappui.com/aura/assets/css/style.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/logo.jpg">
+    <style>
+      #team img{
+        width: 352px;
+        height: 315px;
+      }
+      #navs{
+        z-index: 999999;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 ">
+    <!-- navbar starts -->
+    <!-- Section 1 -->
+    <section class="w-full px-8 text-gray-700 fixed bg-white" id="navs">
+      <header class="sticky top-0 px-2 py-5 sm:px-8 transition-colors duration-300">
+        <div class="flex items-center mx-auto max-w-7xl">
+          <div class="relative z-10 flex items-center justify-between w-full">
+            <div class="flex items-center gap-3">
+              <img alt="logo" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-1/338216384_1476989319496509_4813080150685622051_n.jpg?stp=c0.7.200.200a_dst-jpg_p200x200&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-nR9QWkXpXsQ7kNvgFQAZ4g&_nc_ht=scontent.fbir1-1.fna&oh=00_AfBgQO5V8Zn1Pt8j9hHa1fSTWXBxresTXqc8Kr_Nvn7i-A&oe=664253A8">
+              <span class="text-2xl font-bold tracking-wide">
+                <span class="text-purple-500">AARA</span>TECH </span>
+            </div>
+            <div class="hidden gap-6 sm:flex">
+              <a href="" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Home</a>
+              <a href="#about" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">About</a>
+              <a href="#work" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Work</a>
+              <a href="#projects" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Project</a>
+              <a href="#team" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Team</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="flex sm:hidden">
+                <button id="mobileMenuButton" class="whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 inline-flex items-center justify-center rounded-md p-2.5" type="button">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav id="mobileMenu" class="hidden sm:hidden">
+          <div class="flex flex-col gap-4 py-4">
+            <a href="#home" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Home</a>
+            <a href="#about" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">About</a>
+            <a href="#work" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Work</a>
+            <a href="#projects" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Project</a>
+            <a href="#team" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">Team</a>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <br><br><br>
+    <script>
+      const mobileMenuButton = document.getElementById('mobileMenuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+    <!-- Section 2 -->
+    <section class="px-2 py-32 bg-white md:px-0 bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+        <div class="flex flex-wrap items-center sm:-mx-3">
+          <div class="w-full md:w-1/2 md:px-3">
+            <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+              <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+                <span class="block xl:inline">We Create</span>
+                <span class="block text-indigo-600 xl:inline">Your Concept.</span>
+              </h1>
+              <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">Welcome to Aaratech 3D, your one-stop solutions for 3D printing, Prototyping and Design solution.</p>
+              <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+                <a href="#_" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto"> Contact Us <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#_" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"> Learn More </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2">
+            <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+              <img src="assets/group.jpg" width="1450px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="text-gray-600 body-font" id="about">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ABOUT US</h2>
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">In-Short, We Make Magical 3D Designs</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> At Aaratech, we specialize in product development, offering a comprehensive range of services tailored to address the unique needs of our clients. From conducting thorough machine part’s design, prototyping complex components to developing innovative and customized gift products, our team of professionals are dedicated to delivering excellence. We know that every project we undertake is an opportunity to create something unique and remarkable and always bring our spirit of experimentation to the table..</p>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Our Principal</h2>
+            <p class="leading-relaxed text-base mb-4">At Aaratech3D, we are passionate about unlocking the full potential of 3D printing and design technology. We believe that this cutting-edge field can revolutionize the way we create, innovate, and interact with the world around us.</p>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">We like to experiment</h2>
+            <p class="leading-relaxed text-base mb-4">Whether it's developing a new product, designing a custom gift or souvenir, or prototyping a complex component, we always bring our spirit of experimentation to the table. We're passionate about what we do, and we're committed to delivering the highest quality results for our clients.</p>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">We Do good work</h2>
+            <p class="leading-relaxed text-base mb-4">At AaraTech3D, we believe that doing good work is not just a slogan, but a way of life. We are proud of the work we do, and we are committed to making a lasting, positive impact on the world around us.</p>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">We enjoy Making</h2>
+            <p class="leading-relaxed text-base mb-4">At AaraTech3D, we don't just see 3D printing and designing as a job, but as a passion that we love to pursue. Our team of experts enjoys every step of the process, from ideation and design to final production, because we know that every project we undertake is an opportunity to create something unique and remarkable.</p>
+          </div>
+        </div>
+        <a href="#work">
+          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-3 focus:outline-none hover:bg-indigo-600 rounded text-lg" style="border-radius: 50%;">
+          <i class="fa-solid fa-arrow-down"></i>
+        </button>
+        </a>
+      </div>
+    </section>
+<!-- section project starts -->
+<section class="py-16 bg-white" id="projects">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">Our Projects</h2>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Take a look at some of our recent projects that demonstrate our capabilities in 3D printing, prototyping, and design. We pride ourselves on delivering high-quality and innovative solutions.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Project 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/agrobotics.jpg" alt="Project 1">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Agrobotics cattle health monitoring</h3>
+                        <p class="mt-4 text-gray-600">We develop advanced Agrobotics and cattle health monitoring solutions through innovative 3D designing and printing.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/architeture.jpg" alt="Project 2">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Architectural Models</h3>
+                        <p class="mt-4 text-gray-600">Our team created detailed architectural models for a major urban development project, aiding in visualizing complex structures.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/systemdesign.png" alt="Project 3">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">System Design</h3>
+                        <p class="mt-4 text-gray-600">We specialize in comprehensive system design, delivering tailored solutions through cutting-edge 3D designing and printing.</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/solarpoweredtower.jpg" alt="Project 1">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Solar Powered Clock Tower</h3>
+                        <p class="mt-4 text-gray-600">We create solar-powered clock towers using precision 3D designing and printing.</p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/themebasedgear.png" alt="Project 2">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Theme Based Gears</h3>
+                        <p class="mt-4 text-gray-600">We engineer theme-based gears with intricate designs for various applications.</p>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img class="w-full h-56 object-cover" src="assets/voicecontrolledrobot.jpg" alt="Project 3">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Voice Controlled Robot</h3>
+                        <p class="mt-4 text-gray-600">We develop advanced voice-controlled robots utilizing state-of-the-art 3D printing technology.</p>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+<!-- section project ends -->
+  <!-- section clients starts -->
+    <section class="py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-14 text-center">
+            <h4 class="text-xl text-gray-400 text-center font-medium">Our clients</h4>
+        </div>
+        <div class="grid grid-cols-2 justify-center items-center gap-12 md:grid-cols-3 xl:grid-cols-none xl:flex xl:justify-between">
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/dbc.jpg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/brtmetrolian.jpeg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/grit.jpg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/soulmed.jpg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/imelife.jpeg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/infotech.png" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/jci.png" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/shreepublic.png" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/tribhuwan.jpg" class="h-24 w-24">
+            </a>
+            <a href="#" class="flex justify-center items-center">
+                <img src="assets/company-logo/voiceofnepal.jpg" class="h-24 w-24">
+            </a>
+            <!-- Add more logos as needed -->
+        </div>
+    </div>
+</section>
+
+                                            
+  <!-- section clients ends -->
+    <!-- Section 4 -->
+    <section class="py-20 bg-white">
+      <div class="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+        <div class="flex flex-wrap items-center -mx-3">
+          <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+            <div class="w-full lg:max-w-md">
+              <h2 class="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">Jam-packed with 3D Printing Solutions for Your Every Need</h2>
+              <p class="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">With Aaratech 3D, access all your 3D modeling and printing solutions seamlessly. Our tools will help you with the following:</p>
+              <ul>
+                <li class="flex items-center py-2 space-x-4 xl:py-3">
+                  <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                  </svg>
+                  <span class="font-medium text-gray-500">Out of the Box 3D Modelling</span>
+                </li>
+                <li class="flex items-center py-2 space-x-4 xl:py-3">
+                  <svg class="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                  </svg>
+                  <span class="font-medium text-gray-500">Delivery all over Nepal.</span>
+                </li>
+                <li class="flex items-center py-2 space-x-4 xl:py-3">
+                  <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                  </svg>
+                  <span class="font-medium text-gray-500">Fully Trusted by Our Customers</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+            <img class="mx-auto sm:max-w-sm lg:max-w-full" src="https://cdn.devdojo.com/images/november2020/feature-graphic.png" alt="feature image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section  -->
+    <!-- ====== Services Section Start -->
+    <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark" id="work">
+      <div class="container mx-auto">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+              <span class="text-primary mb-2 block text-lg font-semibold"> Our Works </span>
+              <h2 class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"> What We Offer </h2>
+              <p class="text-body-color text-base dark:text-dark-6"> This is how we transform your imagination into a reality via our works. </p>
+            </div>
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <center>
+                  <img src="https://cdn-icons-png.flaticon.com/512/4129/4129437.png">
+                </center>
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Product development </h4>
+              <p class="text-body-color dark:text-dark-6"> Our passion lies in designing and developing innovative products, including casings, housings, gadget mockups, containers, electronics, automotive parts, machine components, and more. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/2257/2257374.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Decorative Gifts </h4>
+              <p class="text-body-color dark:text-dark-6"> We take pride in creating unique decorative items and gifts, such as 3D moon lamps, box lamps, dual nameplates, statues, iconic vases, keyrings, tokens of love, souvenirs, figurines/miniatures, and more. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/3593/3593280.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Medical Devices </h4>
+              <p class="text-body-color dark:text-dark-6"> We are dedicated to improving healthcare through the development of cutting-edge medical devices, such as prosthetic arms, prosthetic fingers, and more here on Aaratech 3D for .our. customers. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/8646/8646378.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Consumer products </h4>
+              <p class="text-body-color dark:text-dark-6"> We are committed to enhancing everyday life with our high-quality consumer and household products, including mobile/laptop stands, complex kitchen tools, containers, and more. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/2781/2781931.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Industrial components </h4>
+              <p class="text-body-color dark:text-dark-6"> Our expertise lies in creating precise and functional mock-ups of pumps, valves, jigs, joints, and other industrial components to convert our customers imagination into reality. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/2942/2942441.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Architectural models </h4>
+              <p class="text-body-color dark:text-dark-6"> Our team of skilled designers and model-makers bring architectural visions to life with site models, interior design layouts, urban planning models, building/structure models, and more. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/1584/1584911.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Office items </h4>
+              <p class="text-body-color dark:text-dark-6"> We understand the importance of branding and professional image in the workplace, which is why we offer 3D letter boards, nameplates, logo boards, and other office-related items. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/3253/3253587.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Scientific projects </h4>
+              <p class="text-body-color dark:text-dark-6"> We are passionate about advancing the field of engineering and science through the development of robotics, automation, prototypes, scale models, and other cutting-edge projects. </p>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div class="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-2 hover:shadow-lg md:px-7 xl:px-10 flex flex-col justify-center items-center">
+              <div class="bg-primary mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-2xl">
+                <img src="https://cdn-icons-png.flaticon.com/512/3112/3112425.png">
+              </div>
+              <h4 class="text-dark dark:text-white mb-[14px] text-2xl font-semibold"> Design and modelling </h4>
+              <p class="text-body-color dark:text-dark-6"> Our focus is on bringing innovative designs to reality through machine design, product blueprinting, machine/product drawings, 3D modeling, rendered mockups, and more. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Services Section End -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto bg-white">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">OUR</h2>
+          <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Mission, Vision & Values</h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke="black" stroke-width="2" />
+                    <circle cx="12" cy="12" r="6" fill="black" />
+                    <circle cx="12" cy="12" r="2" fill="white" />
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">Mission</h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">Provide innovative design and manufacturing solutions that meet the evolving needs of our modern society in an efficient effective manner.</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M8 12l2 2 4-4"></path>
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">Vision</h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">Develop a one-stop solution to the unique challenges in design, prototyping and manufacturing sector through use of modern manufacturing methods. </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/3">
+            <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+              <div class="flex items-center mb-3">
+                <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                    <path d="M7 8h10M7 12h10M7 16h10"></path>
+                  </svg>
+                </div>
+                <h2 class="text-gray-900 text-lg title-font font-medium">Values</h2>
+              </div>
+              <div class="flex-grow">
+                <p class="leading-relaxed text-base">To empower individuals and businesses with the tools and technologies they need to bring their ideas to life. To give a sense of value through customized experience.
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- section -->
+    <!-- Section 6 -->
+    <!-- ====== Team Section Start -->
+    <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 dark:bg-dark" id="team">
+      <div class="container mx-auto">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-[60px] max-w-[510px] text-center">
+              <span class="text-primary mb-2 block text-lg font-semibold"> Our Team </span>
+              <h2 class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"> Our Awesome Team </h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap justify-center">
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/abhisheks.png" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Abhishek Bhandari </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Founder - CEO</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/rajan.png" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Rajan Jung Basnet </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Technical Head</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/sankalpa.jpg" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Sankalpa Dahal </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Web Developer</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/sashank.jpg" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Sashank Pokharal </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Administrative head</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/pawan.png" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Pawan Karki </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Marketing head</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+            <div class="mx-auto mb-10 w-full max-w-[370px]">
+              <div class="relative overflow-hidden rounded-lg">
+                <img src="assets/hemanta.jpg" alt="image" class="w-full" />
+                <div class="absolute bottom-5 left-0 w-full text-center">
+                  <div class="relative mx-5 overflow-hidden rounded-lg bg-white dark:bg-dark-2 py-5 px-3">
+                    <h3 class="text-dark dark:text-white text-base font-semibold"> Hemata Neupane </h3>
+                    <p class="text-body-color dark:text-dark-6 text-xs">Product Development Engineer</p>
+                    <div>
+                      <span class="absolute left-0 bottom-0">
+                        <svg width="61" height="30" viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="16" cy="45" r="45" fill="#13C296" fill-opacity="0.11" />
+                        </svg>
+                      </span>
+                      <span class="absolute top-0 right-0">
+                        <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="0.706257" cy="24.3533" r="0.646687" transform="rotate(-90 0.706257 24.3533)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="24.3533" r="0.646687" transform="rotate(-90 6.39669 24.3533)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="24.3533" r="0.646687" transform="rotate(-90 12.0881 24.3533)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="24.3533" r="0.646687" transform="rotate(-90 17.7785 24.3533)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="18.6624" r="0.646687" transform="rotate(-90 0.706257 18.6624)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="18.6624" r="0.646687" transform="rotate(-90 6.39669 18.6624)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="18.6624" r="0.646687" transform="rotate(-90 12.0881 18.6624)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="18.6624" r="0.646687" transform="rotate(-90 17.7785 18.6624)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="12.9717" r="0.646687" transform="rotate(-90 0.706257 12.9717)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="12.9717" r="0.646687" transform="rotate(-90 6.39669 12.9717)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="12.9717" r="0.646687" transform="rotate(-90 12.0881 12.9717)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="12.9717" r="0.646687" transform="rotate(-90 17.7785 12.9717)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="7.28077" r="0.646687" transform="rotate(-90 0.706257 7.28077)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="7.28077" r="0.646687" transform="rotate(-90 6.39669 7.28077)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="7.28077" r="0.646687" transform="rotate(-90 12.0881 7.28077)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="7.28077" r="0.646687" transform="rotate(-90 17.7785 7.28077)" fill="#3056D3" />
+                          <circle cx="0.706257" cy="1.58989" r="0.646687" transform="rotate(-90 0.706257 1.58989)" fill="#3056D3" />
+                          <circle cx="6.39669" cy="1.58989" r="0.646687" transform="rotate(-90 6.39669 1.58989)" fill="#3056D3" />
+                          <circle cx="12.0881" cy="1.58989" r="0.646687" transform="rotate(-90 12.0881 1.58989)" fill="#3056D3" />
+                          <circle cx="17.7785" cy="1.58989" r="0.646687" transform="rotate(-90 17.7785 1.58989)" fill="#3056D3" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Team Section End -->
+    <!-- Section 5 -->
+    <section class="flex items-center justify-center py-20 bg-white min-w-screen">
+      <div class="px-16 bg-white">
+        <div class="container flex flex-col items-start mx-auto lg:items-center">
+          <p class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">Don't just take our word</p>
+          <h2 class="relative flex items-start justify-start w-full max-w-3xl text-5xl font-bold lg:justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="absolute right-0 hidden w-12 h-12 -mt-2 -mr-16 text-gray-200 lg:inline-block" viewBox="0 0 975.036 975.036">
+              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg> See what others are saying
+          </h2>
+          <div class="block w-full h-0.5 max-w-lg mt-6 bg-purple-100 rounded-full"></div>
+          <div class="items-center justify-center w-full mt-12 mb-4 lg:flex">
+            <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
+              <div class="flex items-center justify-center">
+                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                  <img src="http://aaratech.com.np/asset/nishan.jpg" class="object-cover w-full h-full">
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800">Nishal Parajuli</h4>
+                  <p class="text-gray-600">Our client</p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500">"I am totally satisfied with the service provided from this place. Thanks for building this monument precisely as per my request :) :).!"</blockquote>
+            </div>
+            <div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
+              <div class="flex items-center justify-center">
+                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                  <img src="http://aaratech.com.np/asset/aakash.jpg" class="object-cover w-full h-full">
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800">Aakash Uprety</h4>
+                  <p class="text-gray-600">Our client</p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500">"I have personally printed Mask straps and Doremon model here. Amazing service & on-time delivery.."</blockquote>
+            </div>
+            <div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
+              <div class="flex items-center justify-center">
+                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                  <img src="http://aaratech.com.np/asset/binil.jpg" class="object-cover w-full h-full">
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <h4 class="font-bold text-gray-800">Binilraj Adhikari</h4>
+                  <p class="text-gray-600">Our client</p>
+                </div>
+              </div>
+              <blockquote class="mt-8 text-lg text-gray-500">"Great place for 3D printing solution and one of the cheapest in the country.Fully satisfied by their work.."</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section contact us -->
+    <section class="bg-blue-50 dark:bg-slate-800" id="contact">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div class="mb-4">
+          <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+            <p class="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200"> Contact </p>
+            <h2 class="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl"> Get in Touch </h2>
+          </div>
+        </div>
+        <div class="flex items-stretch justify-center">
+          <div class="grid md:grid-cols-2">
+            <div class="h-full pr-6">
+              <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400"> Feel free to reach out to us with any questions, comments, or concerns. Our team is here to assist you and ensure your experience is seamless. You can contact us via email or phone during our business hours. </p>
+              <ul class="mb-6 md:mb-0">
+                <li class="flex">
+                  <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                      <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                      <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                    </svg>
+                  </div>
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address </h3>
+                    <p class="text-gray-600 dark:text-slate-400">Ithahari, halgada</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                      <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                      <path d="M15 7a2 2 0 0 1 2 2"></path>
+                      <path d="M15 3a6 6 0 0 1 6 6"></path>
+                    </svg>
+                  </div>
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact </h3>
+                    <p class="text-gray-600 dark:text-slate-400">Mobile: 977-9817396487</p>
+                    <p class="text-gray-600 dark:text-slate-400">Mail: ara8official@gmail.com</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                      <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+                      <path d="M12 7v5l3 3"></path>
+                    </svg>
+                  </div>
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working hours</h3>
+                    <p class="text-gray-600 dark:text-slate-400">Sunday - Friday: 10:00am - 06:00pm</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
+              <h2 class="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
+              <form class="contactForm" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqgbear" method="post">
+                <div class="mb-6">
+                  <div class="mx-0 mb-1 sm:mb-4">
+                    <div class="mx-0 mb-1 sm:mb-4">
+                      <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label>
+                      <input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name">
+                    </div>
+                    <div class="mx-0 mb-1 sm:mb-4">
+                      <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label>
+                      <input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email">
+                    </div>
+                  </div>
+                  <div class="mx-0 mb-1 sm:mb-4">
+                    <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label>
+                    <textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section contact us -->
+    <!-- Section 7 -->
+    <section class="bg-white">
+      <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+          <div class="px-5 py-2">
+            <a href="" class="text-base leading-6 text-gray-500 hover:text-gray-900"> Home </a>
+          </div>
+          <div class="px-5 py-2">
+            <a href="#about" class="text-base leading-6 text-gray-500 hover:text-gray-900"> About </a>
+          </div>
+          <div class="px-5 py-2">
+            <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900"> Project </a>
+          </div>
+          <div class="px-5 py-2">
+            <a href="#team" class="text-base leading-6 text-gray-500 hover:text-gray-900"> Team </a>
+          </div>
+          <div class="px-5 py-2">
+            <a href="#work" class="text-base leading-6 text-gray-500 hover:text-gray-900"> Work </a>
+          </div>
+          <div class="px-5 py-2">
+            <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900"> Contact </a>
+          </div>
+        </nav>
+        <div class="flex justify-center mt-8 space-x-6">
+          <a href="https://www.facebook.com/AARATECH3D" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Facebook</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/aaratech3d/" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Instagram</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a href="http://aaratech.com.np/" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Twitter</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/aaratech3d/" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">GitHub</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.86 0H2.14A2.15 2.15 0 0 0 0 2.14v19.72A2.15 2.15 0 0 0 2.14 24h19.72A2.15 2.15 0 0 0 24 21.86V2.14A2.15 2.15 0 0 0 21.86 0zM7.71 20H4.43V9.52h3.28zm-1.64-12a1.81 1.81 0 1 1-1.82-1.81 1.81 1.81 0 0 1 1.82 1.81zM20 20h-3.28v-5.54c0-1.32-.47-2.22-1.64-2.22s-1.69.64-1.97 1.27-.07 1.17-.07 1.17v5.32H9.35s.05-10.63 0-11.73h3.27v1.66a3.72 3.72 0 0 1 3.33-1.83c2.42 0 4.23 1.58 4.23 4.97z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="mt-8 text-base leading-6 text-center text-gray-400"> Copyright © 2024 AaraTech 3D, Inc. Created with <3 by Sankalpa Dahal. </p>
+      </div>
+    </section>
+  </body>
+</html>
